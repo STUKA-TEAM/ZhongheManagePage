@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>众合微信</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/bootstrap-responsive.min.css" />
+        <link rel="stylesheet" href="css/fullcalendar.css" />    
+        <link rel="stylesheet" href="css/unicorn.main.css" />
+        <link rel="stylesheet" href="css/unicorn.grey.css" class="skin-color" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+    <body>
+        
+        
+        <div id="header">
+            <h1><a href="./dashboard.html">众合微信</a></h1>        
+        </div>
+
+        <div id="user-nav" class="navbar navbar-inverse">
+            <ul class="nav btn-group">
+                <li class="btn btn-inverse"><a title="" href="#"><i class="icon icon-user"></i> <span class="text">Profile</span></a></li>
+                <li class="btn btn-inverse dropdown" id="menu-messages"><a href="#" data-toggle="dropdown" data-target="#menu-messages" class="dropdown-toggle"><i class="icon icon-envelope"></i> <span class="text">Messages</span> <span class="label label-important">5</span> <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a class="sAdd" title="" href="#">new message</a></li>
+                        <li><a class="sInbox" title="" href="#">inbox</a></li>
+                        <li><a class="sOutbox" title="" href="#">outbox</a></li>
+                        <li><a class="sTrash" title="" href="#">trash</a></li>
+                    </ul>
+                </li>
+                <li class="btn btn-inverse"><a title="" href="#"><i class="icon icon-cog"></i> <span class="text">Settings</span></a></li>
+                <li class="btn btn-inverse"><a title="" href="login.html"><i class="icon icon-share-alt"></i> <span class="text">Logout</span></a></li>
+            </ul>
+        </div>
+            
+        <div id="sidebar">
+            <a href="#" class="visible-phone"><i class="icon icon-home"></i> 小黄鸡管理</a>
+            <ul>
+                <li><a href="index.html"><i class="icon icon-home"></i> <span>小黄鸡管理</span></a></li>
+                <li><a href="lottery-manager.html"><i class="icon icon-th-list"></i> <span>抽奖管理</span></a></li>
+                <li class="submenu active open">
+                    <a href="order-manager.html"><i class="icon icon-tint"></i> <span>订餐管理</span></a>
+                    <ul>
+                        <li><a href="order-dish-manager.html">菜品管理</a></li>
+                        <li class="active"><a href="order-menu-manager.html">菜单管理</a></li>
+                        <li><a href="order-order-manager.html">订单管理</a></li>
+                    </ul>
+                </li>
+                <li><a href="song-manager.html"><i class="icon icon-pencil"></i> <span>随机推歌管理</span></a></li>
+                <li><a href="vote.html"><i class="icon icon-th"></i> <span>投票管理</span></a></li>
+                <li><a href="weather.html"><i class="icon icon-file"></i> <span>天气管理</span></a></li>
+            </ul>
+        </div>
+        
+        <div id="content">
+            <div id="content-header">
+                <h1>订餐管理</h1>
+            </div>
+            <div id="breadcrumb">
+                <a href="#" title="Go to Home" class="tip-bottom"><i class="icon-home"></i> 主页</a>
+                <a href="#" class="tip-bottom">订餐管理</a>
+                <a href="#" class="current">菜单管理</a>
+            </div>
+            <div class="container-fluid">
+                <div class="row-fluid">
+                    <div class="span12">
+                                        
+                    </div>
+                </div>
+                <div class="row-fluid">
+                    
+                </div>
+            </div>
+        </div>
+        
+
+            <script src="js/excanvas.min.js"></script>
+            <script src="js/jquery.min.js"></script>
+            <script src="js/jquery.ui.custom.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+            <script src="js/jquery.flot.min.js"></script>
+            <script src="js/jquery.flot.resize.min.js"></script>
+            <script src="js/jquery.peity.min.js"></script>
+            <script src="js/fullcalendar.min.js"></script>
+            <script src="js/unicorn.js"></script>
+            <script src="js/unicorn.dashboard.js"></script>
+    </body>
+</html>
